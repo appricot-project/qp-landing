@@ -1,0 +1,466 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 67.2px;
+}
+
+h4 {
+  font-weight: 700;
+  color: #fea250;
+  font-size: 21px;
+  line-height: 24.61px;
+}
+
+h5 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.47px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.wrapper {
+  max-width: 1448px;
+  margin: 0 auto;
+}
+
+.main__container {
+  padding: 64px 0;
+}
+
+.logo__container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.top-qr {
+  margin-top: 60px;
+  display: flex;
+  gap: 24px;
+}
+
+.dignity__app {
+  margin-top: 120px;
+}
+
+.dignity__app-list {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  margin-top: 48px;
+}
+
+.dignity__app-item {
+  width: 100%;
+  height: 329px;
+  padding: 44px 50px;
+  box-shadow: 0px 4.48px 279.97px 0px #00000014;
+  border-radius: 22.4px;
+}
+
+.description_gray {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #808080;
+}
+
+.mobile__app {
+  margin-top: 120px;
+  display: flex;
+  gap: 154px;
+}
+
+.mobile__app-list {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mobile__app-list-item {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.mobile__app-list-item-text {
+  color: #2e3135;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.47px;
+}
+
+.birthday__block {
+  margin-top: 120px;
+  width: 100%;
+  height: 464px;
+  padding: 50px 80px;
+  display: flex;
+  gap: 40px;
+  border-radius: 20px;
+  background-color: #fbf0da;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.btn {
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: none;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24.61px;
+  cursor: pointer;
+}
+
+.btn_orange {
+  background: #fabc02;
+}
+
+.form__block {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__block h2 {
+  text-align: center;
+}
+
+.form__block-item {
+  width: 956px;
+  height: 85px;
+  padding: 10px 10px 10px 50px;
+  border-radius: 100px;
+  border: 1.12px solid #c0c1c2;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+input {
+  border: none;
+  width: min-content;
+  font-size: 24px;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+input::-ms-input-placeholder,
+input::placeholder {
+  color: #c1c1c1;
+}
+
+.top-qr__stores {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.top-qr__stores img {
+  width: 196px;
+}
+
+.top-qr-item {
+  margin-top: 64px;
+  width: 200px;
+  height: 200px;
+}
+
+.top-qr-img {
+  width: 726px;
+  height: 537px;
+}
+
+.dignity__app h2 {
+  margin-top: 24px;
+}
+
+.dignity__app-item img {
+  width: 60px;
+  height: 60px;
+}
+
+.dignity__app-item-top h5 {
+  margin-top: 26.8px;
+}
+
+.dignity__app-item .description_gray {
+  margin-top: 26.8px;
+}
+
+.mobile__app-img {
+  width: 400px;
+  height: 828.74px;
+}
+
+.mt-6 {
+  margin-top: 24px;
+}
+
+.mt-8 {
+  margin-top: 36px;
+}
+
+.birthday__block img {
+  width: 428px;
+  height: 274px;
+}
+
+.form__block h2 {
+  max-width: 800px;
+}
+
+.form__block-text {
+  opacity: 0.5;
+  margin-top: 24px;
+  text-align: center;
+  font-size: 24px;
+}
+
+@media (max-width: 800px) {
+  .main__container {
+    padding: 24px 7.5px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 32.81px;
+  }
+
+  h2 {
+    font-size: 22px;
+    line-height: 25.78px;
+  }
+
+  h4 {
+    font-size: 14px;
+    line-height: 16.41px;
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .top-qr__stores {
+    margin-top: 32px;
+    gap: 16px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .top-qr__stores img {
+    width: 164px;
+  }
+
+  .top-qr-item {
+    display: none;
+  }
+
+  .top-qr {
+    flex-direction: column;
+  }
+
+  .top-qr-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .dignity__app {
+    margin-top: 40px;
+  }
+
+  .dignity__app h2 {
+    margin-top: 16px;
+  }
+
+  .dignity__app-list {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .dignity__app-item img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .dignity__app-item {
+    padding: 16px;
+    height: max-content;
+  }
+
+  .dignity__app-item-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .dignity__app-item-top h5 {
+    margin-top: 0;
+  }
+
+  .description_gray {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .dignity__app-item .description_gray {
+    margin-top: 12px;
+  }
+
+  .mobile__app {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 32px;
+  }
+
+  .mobile__app-img {
+    width: 160px;
+    height: 331.5px;
+  }
+
+  .mt-6 {
+    margin-top: 12px;
+  }
+
+  .mt-8 {
+    margin-top: 16px;
+  }
+
+  .mobile__app-list {
+    margin-top: 24px;
+    gap: 12px;
+  }
+
+  .mobile__app-list-item-text {
+    font-size: 16px;
+    line-height: 18.75px;
+  }
+
+  .mobile__app-qrcode {
+    display: none;
+  }
+
+  .birthday__block {
+    flex-direction: column;
+    padding: 16px;
+    height: max-content;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 40px;
+    gap: 16px;
+  }
+
+  .btn__mob_full {
+    width: 100%;
+  }
+
+  .birthday__block img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .form__block h2 {
+    text-align: start;
+  }
+
+  .form__block-text {
+    margin-top: 16px;
+    text-align: start;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .form__block {
+    margin-top: 40px;
+  }
+
+  .form__block-item {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+  }
+
+  .form__block-item input {
+    border: 1px solid #c0c1c2;
+    border-radius: 100px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1448px) {
+  .main__container {
+    padding: 24px 7.5px;
+  }
+
+  .top-qr-img {
+    width: 100%;
+    height: 100%;
+    max-width: 726px;
+    max-height: 537px;
+  }
+
+  .dignity__app-item {
+    height: min-content;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  .top-qr {
+    flex-direction: column;
+  }
+
+  .dignity__app-list {
+    align-items: flex-start;
+  }
+
+  .mobile__app {
+    flex-direction: column;
+  }
+
+  .birthday__block {
+    height: min-content;
+  }
+}

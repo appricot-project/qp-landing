@@ -1,1 +1,1 @@
-# qp-landing
+# quadropizza-apps-landing
